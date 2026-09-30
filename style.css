@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#titulo {
+    color: rgb(244, 232, 232);
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#subtitulo {
+    color: white;
+    font: 20px;
+    padding-top: 10px;
+}
+#linha{
+    border: 0;
+    border-top: 2px dashed black;
+    margin-top: 0px;   
+    margin: 22px 0;
+}
+
+.palavra{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
+#a60{
+    padding-top: 200px;
+}
+.pinto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unic {
+    display: flex;
+    justify-content: center;
+    width: 430px;
+    height: 540px;
+    background-color: darkorange;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#bt{
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    margin-top: 6px;
+}
+
+.part-c {
+    height: min-content;
+}
+#foto{
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+}
